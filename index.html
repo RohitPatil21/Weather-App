@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="icon" href="sun.png">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+
+    <!-- heading  -->
+    <div class="heading-div">
+        <h1 class="heading">Weather App</h1>
+    </div>
+
+    <!-- main-wrapper  -->
+    <div class="main-wrapper">
+
+        <!-- search box  -->
+        <form id="search-city">
+            <input type="search" placeholder="Enter City Name" id="search-input" required autocomplete="off" />
+            <button id="search-button">Search</button>
+        </form>
+    
+        <!-- container  -->
+        <div class="container">
+            <div class="location">
+                <p id="location_p">Delhi</p>
+            </div>
+
+            <div class="temp">
+                <img src="sun.png" alt="" id="temp-icon">
+                <p id="temp-value-p"><span id="temp-value">30</span>&#176c</p>
+            </div>
+
+            <div class="climate">
+                <p>sunny</p>
+            </div>
+            
+        </div>
+    
+    </div>
+    
+</body>
+</html>
